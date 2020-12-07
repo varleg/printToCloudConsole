@@ -6,19 +6,15 @@
       "direction": "in",
       "name": "req",
       "methods": [
-        "get"
-      ],
-      "route": "tenant/{tenantUuid}"
-    },
-    {
-      "name": "starter",
-      "type": "durableClient",
-      "direction": "in"
+        "get",
+        "post"
+      ]
     },
     {
       "type": "http",
       "direction": "out",
-      "name": "$return"
+      "name": "res"
     }
   ]
 }
+

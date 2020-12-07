@@ -6,14 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/varleg/printToCloudConsole.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/varleg/printToCloudConsole/issues"
-  },
-  "homepage": "https://github.com/varleg/printToCloudConsole#readme"
+  "dependencies": {
+    "durable-functions": "^1.4.4"
+  }
 }
